@@ -1,4 +1,4 @@
-# Array Analyzer (C++)
+# Array Analyzer V1
 
 ## Overview
 
@@ -49,6 +49,43 @@ This is a C++ program that performs multiple operations on an array of numbers. 
    ```
    ./arrayAnalyzer
    ```
+
+# Array Analyzer V2 (C++)
+
+This is a C++ console-based project that analyzes a list of integers using arrays and functions.
+
+## Features
+
+- Take user input for array
+- Print array
+- Print reverse array
+- Display even and odd numbers
+- Calculate:
+  - Sum
+  - Product
+  - Average
+- Find:
+  - Maximum value
+  - Minimum value
+- Search for a number in the array
+
+## Concepts Used
+
+- Arrays
+- Functions
+- Loops (for loop)
+- Conditional statements
+- Modular programming
+
+## Future Improvements (V3)
+
+- Count even and odd numbers
+- Frequency of elements
+- Menu-driven system
+
+---
+
+Built as part of my C++ learning journey 
 
 Kanishk — C++ Learner 
 
