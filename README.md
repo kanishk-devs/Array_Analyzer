@@ -1,91 +1,102 @@
-# Array Analyzer V1 (C++)
+# Array Analyzer V3 (C++)
 
 ## Overview
 
-This is a C++ program that performs multiple operations on an array of numbers. It was built as part of my C++ learning journey.
+Array Analyzer V3 is a menu-driven C++ console application that performs multiple operations on a user-defined array.
+
+This project represents my first fully structured and feature-rich C++ application, built from scratch as part of my learning journey.
+
+---
 
 ## Features
 
-* User-defined array size
-* Input and display elements
-* Reverse array output
-* Even number detection
-* Sum, product, and average calculation
-* Maximum and minimum element detection
-* Linear search (check if a number exists)
-* Repeat program using loop
+* User-defined array input
+* Clean and structured UI
+* Menu-driven system
+* Multiple operations in a single run
+
+### Array Operations
+
+* Print array
+* Print array in reverse
+* Display even and odd numbers (with count)
+
+### Calculations
+
+* Sum of elements
+* Product of elements
+* Average of elements
+
+### Analysis
+
+* Maximum element
+* Minimum element
+
+### Search Functionality
+
+* Check if a number exists
+* Count frequency of the number
+
+### Advanced Feature
+
+* Perform **multiple operations in one run** by selecting multiple choices
+
+---
 
 ## Concepts Used
 
 * Arrays
+* Functions (Modular Programming)
 * Loops (for, while)
-* Conditional statements (if-else)
-* Basic algorithms (search, max/min)
-* User input/output
+* Conditional Statements (if-else, switch-case)
+* Menu-driven program design
+* Basic algorithms (searching, max/min, counting)
+
+---
 
 ## Limitations
 
-* Uses non-standard variable-length arrays (will improve using vectors in future)
-* Product may overflow for large numbers
-* No input validation for non-integer values
+* Uses non-standard variable-length arrays (will upgrade to vectors later)
+* Product may overflow for very large numbers
+* No validation for non-integer input
 
-## Future Improvements (v2)
+---
 
-* Use functions for modular code
-* Replace arrays with vectors
-* Add better UI formatting
-* Add sorting features
-* Improve error handling
+## Future Improvements (V4)
+
+* Sorting (Ascending / Descending)
+* Use of vectors (STL)
+* Better UI formatting
+* Input validation
+* Performance optimization
+
+---
 
 ## How to Run
 
-1. Compile the program:
+1. Compile:
 
    ```
-   g++ filename.cpp -o arrayAnalyzer
+   g++ main.cpp -o arrayAnalyzer
    ```
+
 2. Run:
 
    ```
    ./arrayAnalyzer
    ```
 
-# Array Analyzer V2 (C++)
+---
 
-This is a C++ console-based project that analyzes a list of integers using arrays and functions.
+## Project Status
 
-## Features
+Version 3 — Completed
 
-- Take user input for array
-- Print array
-- Print reverse array
-- Display even and odd numbers
-- Calculate:
-  - Sum
-  - Product
-  - Average
-- Find:
-  - Maximum value
-  - Minimum value
-- Search for a number in the array
-
-## Concepts Used
-
-- Arrays
-- Functions
-- Loops (for loop)
-- Conditional statements
-- Modular programming
-
-## Future Improvements (V3)
-
-- Count even and odd numbers
-- Frequency of elements
-- Menu-driven system
+This is my first major C++ project demonstrating structured programming and problem-solving skills.
 
 ---
 
-Built as part of my C++ learning journey 
+## Author
 
-Kanishk — C++ Learner 
-
+**Kanishk**
+C++ Learner 
